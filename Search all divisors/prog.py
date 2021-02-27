@@ -2,7 +2,7 @@ import math
 
 def search_divisors(n):
     
-    divs=[1,n]
+    divs = [1,n]
     
     if math.sqrt(n).is_integer():
         
@@ -26,4 +26,5 @@ def search_divisors(n):
     divs.sort()
     return divs
 
-print(search_divisors(16))
+k = int(input())
+print(search_divisors(k))
